@@ -1,0 +1,18 @@
+{
+  "name": "devops-training",
+  "version": "1.0.0",
+  "description": "Simple web server to train devops",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+   "author": "Tom Peeters",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}
