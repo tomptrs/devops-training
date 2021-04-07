@@ -21,5 +21,11 @@ app.get("/test",(req,res)=>{
     res.send("Hallo test2")
   })
 
+  app.get("/test3",(req,res)=>{
+   
+    //  res.sendFile(path.join(__dirname + '/client/start.html'));
+    res.send("Hallo test3")
+  })
+
 
 app.listen(8080, () => console.log('Server ready'))
